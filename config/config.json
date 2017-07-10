@@ -1,0 +1,5 @@
+{
+  "HangupUrl" : "http://localhost/ws/call/index/hangup",
+  "CallUrl" : "http://localhost/ws/call/index/call",
+  "Token" : "abcXYZ123$&#%VA"
+}

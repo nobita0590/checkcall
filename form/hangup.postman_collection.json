@@ -1,0 +1,88 @@
+{
+	"owner": "2111496",
+	"lastUpdatedBy": "2111496",
+	"lastRevision": 1557783154,
+	"team": null,
+	"id": "f1028478-6300-1925-7542-7b5e7c4afe3b",
+	"name": "hangup",
+	"description": null,
+	"order": [
+		"be19284d-d1b5-e51d-398d-6de48e90576c"
+	],
+	"folders": [],
+	"hasRequests": true,
+	"requests": [
+		{
+			"folder": null,
+			"id": "be19284d-d1b5-e51d-398d-6de48e90576c",
+			"name": "hangup",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "username",
+					"value": "anhvucnt",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "access_module_name",
+					"value": "call",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "access_controller_name",
+					"value": "index",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "access_action_name",
+					"value": "hangup",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token_key",
+					"value": "90c1ecea9ac647d23c6650b524968b0a",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clientId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "jobId",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Call",
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://ws.triminh.net/call/index/hangup",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"queryParams": null,
+			"headerData": null,
+			"pathVariableData": null,
+			"responses": [],
+			"collectionId": "f1028478-6300-1925-7542-7b5e7c4afe3b"
+		}
+	]
+}
